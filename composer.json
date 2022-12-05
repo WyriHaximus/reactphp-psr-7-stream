@@ -1,6 +1,6 @@
 {
   "name": "wyrihaximus/react-psr-7-stream",
-  "description": "\ud83d\udee0\ufe0f Test utilities for api-clients packages",
+  "description": "\ud83c\udf81 Decorate ReactPHP streams as PSR-7 streams",
   "license": "MIT",
   "authors": [
     {
