@@ -32,8 +32,7 @@ $body = $response->getBody();
 assert($body instanceof ReadableStreamInterface);
 $stream = new Stream($body);
 while (! $stream->eof()) {
-    $ticks++;
-    $content .= $stream->read(PHP_INT_MAX);
+    handleDataChunk($stream->read(PHP_INT_MAX));
 }
 ```
 
