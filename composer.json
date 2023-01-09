@@ -18,7 +18,7 @@
   "require-dev": {
     "react/event-loop": "^1.3",
     "react/http": "^1.8",
-    "wyrihaximus/async-test-utilities": "^5.0.23"
+    "wyrihaximus/async-test-utilities": "^5.0.25"
   },
   "autoload": {
     "psr-4": {
